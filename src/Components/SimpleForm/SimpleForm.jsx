@@ -12,6 +12,8 @@ const SimpleForm = () => {
           <input type="text"  name="name" className="bg-red-500 text-white px-8 py-2 rounded-lg decoration-none"  />
          <br />
          <input type="email" name="email" id="" />
+          <br />
+         <input type="password" name="password" id="" />
            <br />
          <input type="submit" value="Submit" />
         </form>
