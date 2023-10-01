@@ -1,5 +1,6 @@
 
 import './App.css'
+import GrandPa from './Components/GrandPa/GrandPa';
 import ReuseableForm from './Components/ReuseableForm/ReuseableForm'
 // import HookFrom from './Components/HookForn/HookFrom'
 // import RefForm from './Components/RefForm/RefForm'
@@ -26,7 +27,7 @@ const handleUpdateProfile = data =>{
        */}
        {/* <RefForm></RefForm> */}
        {/* <HookFrom></HookFrom>*/}
-
+{/* 
         <ReuseableForm fromTitle={'Sing Up'} handleSubmit={handleSingUpSubmit}>
           <div>
             <h2>Sign Up</h2>
@@ -38,7 +39,9 @@ const handleUpdateProfile = data =>{
             <h2>Update Profile</h2>
             <p>Always keep your profile update</p>
           </div>
-        </ReuseableForm>
+        </ReuseableForm> */}
+
+        <GrandPa></GrandPa>
     </>
   )
 }
