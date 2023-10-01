@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AssetContext } from "../GrandPa/GrandPa";
+import Friend from "../Friend/Friend";
 
 
 const Cosin = ({name}) => {
@@ -9,6 +10,9 @@ const Cosin = ({name}) => {
         <h2>Cosin</h2>
         <p>{name}</p>
         <p>{gift}</p>
+        {
+          name === "laltu" && <Friend></Friend>
+        }
 
     </div>
   );
